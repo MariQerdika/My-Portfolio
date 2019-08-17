@@ -1,0 +1,95 @@
+@include mediaXl {
+
+}
+@include mediaLg {
+    .project_block .block_p {
+        width: 49% !important;
+    }
+    main {
+        padding: 100px 10px !important;
+    }
+}
+@include mediaMd {
+    main {
+        align-items: center;
+        text-align: center;
+}
+.menu-nav, .menu-branding {
+    float: none;
+    width: 100%;
+    min-height: 0;
+
+    &.show {
+        transform: translate3d(0,0,0)
+    }
+}
+.menu-nav {
+    height: 50vh;
+    transform: translate3d(100%, 0, 0);
+    font-size: 22px;
+}
+.menu-branding {
+    height: 50vh;
+    transform: translate3d(-100%, 0, 0);
+
+    .pofile_i {
+        background: url(../img/images.jpg);
+        width: 150px;
+        height: 150px;;
+    }
+    
+}
+#contact {
+    padding: 60px 20px !important;
+    .map_c {
+        display: none;
+    }
+    .contact_p {
+        box-sizing: border-box;
+        width: 100% !important;
+        left: 0 !important;
+        top: 10% !important;
+    }
+}
+.lg-heading  {
+    font-size: 36px !important;
+}
+.sm-heading {
+    font-size: 14px !important;
+}
+.menu-btn {
+    top: 30px;
+    right: 30px;
+}
+.project_block .block_p {
+    width: 80% !important;
+}
+main {
+    padding: 70px 0 !important;
+}
+.project_block {
+    padding-top: 20px;
+}
+.timeline > li > .timeline-badge i {
+    left: 47% !important;
+}
+}
+@include mediaSm {
+    .project_block {
+        padding-bottom: 50px;
+    }  
+    .timeline > li > .timeline-badge i {
+        left: 10px !important;
+    }
+    .timeline .box .timeline-panel, .timeline .box2 .timeline-panel {
+        width: 100% !important;
+        text-align: left !important;
+        float: left !important;
+    }
+    .timeline:before {
+        position: relative !important;
+    }
+    .box, .box2 {
+        padding: 20px 10px 20px 70px !important;
+    }
+}
