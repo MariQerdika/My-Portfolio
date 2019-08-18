@@ -307,7 +307,6 @@ body {
   background-attachment: fixed;
   background-size: cover;
   color: #fff;
-  height: 100vh;
   margin: 0;
 }
 
@@ -321,7 +320,6 @@ h1.lg-heading, h2.lg-heading, h3.lg-heading {
   line-height: 0.8;
   display: inline-block;
   border-bottom: 1px solid #f9b8ee;
-  padding-top: 10vh;
 }
 
 a {
@@ -336,7 +334,7 @@ header {
 }
 
 main {
-  padding: 100px 170px;
+  padding: 60px 100px;
   height: 100%;
 }
 main .icons {
