@@ -44,7 +44,7 @@ header {
     width: 100%;
 }
 main {
-    padding: 60px 100px;
+    padding: 60px 100px 30px 100px;
     height: 100%;
 
     .icons {
@@ -58,6 +58,7 @@ main {
                 @include easeOut();
             }
         }
+       
     }
     .sm-heading {
         font-family: 'Niramit', sans-serif;
@@ -81,4 +82,24 @@ main {
     position: relative;
     display: flex;
     box-shadow: 0 0 25px 1px #535353;
+}
+.contact_m {
+    position: absolute;
+    right: 0;
+
+    .con {
+        display: block;
+        font-size: 50px;
+    }
+    .content_c {
+        overflow: hidden;
+    }
+
+}
+.contact_m:hover {
+    .content_c {
+      
+        transition: 0.5s ease-in;
+        // transform: translate3d(100%, 0, 0);
+    }
 }

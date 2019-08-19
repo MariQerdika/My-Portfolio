@@ -203,6 +203,10 @@
   .menu .nav-link {
     font-size: 22px !important;
   }
+
+  .lg-heading {
+    margin-top: 10vh;
+  }
 }
 .project_block {
   text-align: center;
@@ -338,7 +342,7 @@ header {
 }
 
 main {
-  padding: 60px 100px;
+  padding: 60px 100px 30px 100px;
   height: 100%;
 }
 main .icons {
@@ -373,6 +377,22 @@ main .icons i {
   position: relative;
   display: flex;
   box-shadow: 0 0 25px 1px #535353;
+}
+
+.contact_m {
+  position: absolute;
+  right: 0;
+}
+.contact_m .con {
+  display: block;
+  font-size: 50px;
+}
+.contact_m .content_c {
+  overflow: hidden;
+}
+
+.contact_m:hover .content_c {
+  transition: 0.5s ease-in;
 }
 
 /*# sourceMappingURL=style.css.map */
