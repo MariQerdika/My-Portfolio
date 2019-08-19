@@ -76,11 +76,14 @@
             transform: translate3d(0, 0, 0)
         }
         .pofile_i {
-            width: 300px;
-            height: 300px;
-            background: url(../img/photo.jpg);
+            width: 240px;
+            height: 318px;
             border-radius: 1%;
             border: solid 3px $secondary-color;
+
+            img {
+                width: 100%;
+            }
         }
     }
     .nav-link {

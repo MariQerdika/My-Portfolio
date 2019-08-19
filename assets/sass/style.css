@@ -72,11 +72,13 @@
   transform: translate3d(0, 0, 0);
 }
 .menu-branding .pofile_i {
-  width: 300px;
-  height: 300px;
-  background: url(../img/photo.jpg);
+  width: 240px;
+  height: 318px;
   border-radius: 1%;
   border: solid 3px #f9b8ee;
+}
+.menu-branding .pofile_i img {
+  width: 100%;
 }
 .menu .nav-link {
   display: inline-block;
@@ -132,7 +134,7 @@
   .menu-branding .pofile_i {
     background: url(../img/images.jpg);
     width: 150px;
-    height: 150px;
+    height: 198px;
   }
 
   #contact {
