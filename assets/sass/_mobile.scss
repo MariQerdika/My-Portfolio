@@ -1,5 +1,17 @@
 @include mediaXl {
-
+    .phone_n {
+        top: 30% !important;
+    }
+    
+    .about_f {
+        top: 35% !important;
+    }
+    .about_g {
+        top: 40% !important;
+    }
+    .phone_m {
+        top: 45% !important;
+    }
 }
 @include mediaLg {
     .project_block .block_p {

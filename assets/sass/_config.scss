@@ -23,7 +23,7 @@ $icon-color: #f9b8ee8a;
     }
 }
 @mixin mediaXl {
-    @media screen and (min-width: 1171px) {
+    @media screen and (min-width: 1400px) {
         @content;
     }
 }

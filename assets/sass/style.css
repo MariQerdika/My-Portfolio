@@ -97,6 +97,23 @@
   font-size: 30px;
 }
 
+@media screen and (min-width: 1400px) {
+  .phone_n {
+    top: 30% !important;
+  }
+
+  .about_f {
+    top: 35% !important;
+  }
+
+  .about_g {
+    top: 40% !important;
+  }
+
+  .phone_m {
+    top: 45% !important;
+  }
+}
 @media screen and (min-width: 769px) and (max-width: 1170px) {
   .project_block .block_p {
     width: 49% !important;
@@ -392,19 +409,19 @@ main#home h1 {
 }
 
 .phone_n {
-  top: 25%;
-}
-
-.about_f {
   top: 30%;
 }
 
+.about_f {
+  top: 38%;
+}
+
 .about_g {
-  top: 35%;
+  top: 46%;
 }
 
 .phone_m {
-  top: 40%;
+  top: 54%;
 }
 
 .phone_n:hover, .about_f:hover, .about_g:hover {
