@@ -315,7 +315,7 @@ body {
   background-image: linear-gradient(to bottom, rgba(141, 141, 141, 0.52), rgba(14, 14, 14, 0.88)), url(../img/background.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-  height: 100%;
+  height: 100vh;
   color: #fff;
   margin: 0;
 }
@@ -347,16 +347,6 @@ main {
   padding: 60px 100px 30px 100px;
   height: 100%;
 }
-main .icons {
-  margin-top: 1rem;
-}
-main .icons a {
-  padding: 0.4rem;
-}
-main .icons a:hover {
-  color: #f9b8ee;
-  transition: all 0.5s ease-out;
-}
 main .sm-heading {
   font-family: "Niramit", sans-serif;
 }
@@ -368,10 +358,6 @@ main#home h1 {
   display: inline-block;
   border-bottom: 1px solid #f9b8ee;
   line-height: 0.8;
-}
-main .icons i {
-  font-size: 30px;
-  color: #b4827f;
 }
 
 .contact-container {
@@ -385,16 +371,73 @@ main .icons i {
   position: absolute;
   right: 0;
 }
-.contact_m .con {
-  display: block;
-  font-size: 50px;
-}
 .contact_m .content_c {
   overflow: hidden;
 }
 
 .contact_m:hover .content_c {
   transition: 0.5s ease-in;
+}
+
+.phone_n, .phone_m, .about_f, .about_g {
+  position: absolute;
+  left: 0;
+  width: 44px;
+  background: #40404087;
+  cursor: pointer;
+  transition: 0.7s;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+}
+
+.phone_n {
+  top: 25%;
+}
+
+.about_f {
+  top: 30%;
+}
+
+.about_g {
+  top: 35%;
+}
+
+.phone_m {
+  top: 40%;
+}
+
+.phone_n:hover, .about_f:hover, .about_g:hover {
+  width: 220px;
+}
+
+.phone_m:hover {
+  width: 280px;
+}
+
+.phone_n:hover i,
+.phone_m:hover i,
+.about_f:hover i,
+.about_g:hover i {
+  color: #f9b8ee;
+}
+
+.phone_n i, .phone_m i, .about_g i, .about_f i {
+  color: #f9b8ee8a;
+  margin-right: 20px;
+}
+
+.phone_n i, .about_f i, .about_g i {
+  font-size: 50px;
+}
+
+.phone_m i {
+  font-size: 44px;
+}
+
+.about_f a, .about_g a {
+  display: flex;
+  align-items: center;
 }
 
 /*# sourceMappingURL=style.css.map */

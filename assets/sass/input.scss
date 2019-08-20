@@ -18,7 +18,7 @@ body {
     url(../img/background.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    height: 100%;
+    height: 100vh;
     color: #fff;
     margin: 0;
 }
@@ -46,21 +46,8 @@ header {
 }
 main {
     padding: 60px 100px 30px 100px;
-    height: 100%;
-
-    .icons {
-        margin-top: 1rem;
-        
-        a {
-            padding: 0.4rem;
-
-            &:hover {
-                color: $secondary-color; 
-                @include easeOut();
-            }
-        }
-       
-    }
+    height: 100%;  
+    
     .sm-heading {
         font-family: 'Niramit', sans-serif;
     }
@@ -73,10 +60,6 @@ main {
             line-height: 0.8;
         }
     }
-    .icons i {
-        font-size: 30px;
-        color: #b4827f;
-    }
 }
 .contact-container {
     background-color: #272727c9;
@@ -87,11 +70,6 @@ main {
 .contact_m {
     position: absolute;
     right: 0;
-
-    .con {
-        display: block;
-        font-size: 50px;
-    }
     .content_c {
         overflow: hidden;
     }
@@ -103,4 +81,57 @@ main {
         transition: 0.5s ease-in;
         // transform: translate3d(100%, 0, 0);
     }
+}
+.phone_n, .phone_m, .about_f, .about_g {
+    position: absolute;
+    left: 0;
+    width: 44px;
+    background: #40404087;
+    cursor: pointer;
+    transition: .7s;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+}
+.phone_n {
+    top: 25%;
+}
+
+.about_f {
+    top: 30%;
+}
+.about_g {
+    top: 35%;
+}
+.phone_m {
+    top: 40%;
+}
+.phone_n:hover, .about_f:hover, .about_g:hover {
+    width: 220px;
+}
+.phone_m:hover  {
+    width: 280px;
+}
+.phone_n:hover i,  
+.phone_m:hover i,
+.about_f:hover i,
+.about_g:hover i  
+{
+color: $secondary-color;
+}
+
+.phone_n i, .phone_m i, .about_g i,  .about_f i {
+    color: $icon-color;
+    margin-right: 20px;
+}
+.phone_n i, .about_f i, .about_g i {
+    font-size: 50px;
+}
+.phone_m i  {
+    font-size: 44px;
+}
+
+.about_f a, .about_g a {
+    display: flex;
+    align-items: center;
 }
