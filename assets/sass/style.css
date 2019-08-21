@@ -122,7 +122,7 @@
     padding: 100px 10px !important;
   }
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767.98px) {
   main {
     align-items: center;
     text-align: center;
@@ -166,10 +166,6 @@
     top: 10% !important;
   }
 
-  .lg-heading {
-    font-size: 36px !important;
-  }
-
   .sm-heading {
     font-size: 14px !important;
   }
@@ -195,10 +191,8 @@
     left: 47% !important;
   }
 
-  .phone_n, .phone_m, .about_f, .about_g {
-    position: relative !important;
-    width: 100% !important;
-    margin-bottom: 10px;
+  .lg-heading {
+    font-size: 36px !important;
   }
 }
 @media screen and (max-width: 500px) {
@@ -230,6 +224,12 @@
 
   .lg-heading {
     margin-top: 6vh;
+  }
+
+  .phone_n, .phone_m, .about_f, .about_g {
+    position: relative !important;
+    width: 100% !important;
+    margin-bottom: 10px;
   }
 
   .sm-heading {

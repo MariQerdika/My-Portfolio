@@ -63,9 +63,7 @@
         top: 10% !important;
     }
 }
-.lg-heading  {
-    font-size: 36px !important;
-}
+
 .sm-heading {
     font-size: 14px !important;
 }
@@ -85,10 +83,8 @@ main {
 .timeline > li > .timeline-badge i {
     left: 47% !important;
 }
-.phone_n, .phone_m, .about_f, .about_g {
-    position: relative !important;
-    width: 100% !important;
-    margin-bottom: 10px;
+.lg-heading  {
+    font-size: 36px !important;
 }
 }
 @include mediaSm {
@@ -115,7 +111,11 @@ main {
     .lg-heading {
         margin-top: 6vh;
     }
-   
+    .phone_n, .phone_m, .about_f, .about_g {
+        position: relative !important;
+        width: 100% !important;
+        margin-bottom: 10px;
+    }
     .sm-heading {
         margin-bottom: 30px;
     }

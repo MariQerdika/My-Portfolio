@@ -13,7 +13,7 @@ $icon-color: #f9b8ee8a;
     }
 }
 @mixin mediaMd {
-    @media screen and (max-width: 768px) {
+    @media screen and (max-width: 767.98px) {
         @content;
     }
 }
