@@ -194,6 +194,12 @@
   .timeline > li > .timeline-badge i {
     left: 47% !important;
   }
+
+  .phone_n, .phone_m, .about_f, .about_g {
+    position: relative !important;
+    width: 100% !important;
+    margin-bottom: 10px;
+  }
 }
 @media screen and (max-width: 500px) {
   .project_block {
@@ -224,12 +230,6 @@
 
   .lg-heading {
     margin-top: 6vh;
-  }
-
-  .phone_n, .phone_m, .about_f, .about_g {
-    position: relative !important;
-    width: 100% !important;
-    margin-bottom: 10px;
   }
 
   .sm-heading {
