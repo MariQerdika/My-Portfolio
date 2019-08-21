@@ -4,25 +4,22 @@
 @import 'project';
 @import 'about';
 @import url('https://fonts.googleapis.com/css?family=Indie+Flower&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Aclonica&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Niramit&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Livvic&display=swap');
 
 * {
     box-sizing: border-box;
 }
 
 body {
-  
-    background-image:
-    linear-gradient(to bottom, rgba(141, 141, 141, 0.52), rgba(14, 14, 14, 0.88)),
-    url(../img/background.jpg);
-    background-size: cover;
+    background-image: linear-gradient(to bottom, rgba(141, 141, 141, 0.52), rgba(14, 14, 14, 0.88)), url(../img/background.jpg);
     background-repeat: no-repeat;
-    height: 100vh;
     color: #fff;
+    background-size: cover;
+    height: 100%;
     margin: 0;
+    font-family: 'Livvic', sans-serif;
+    background-attachment: fixed;
 }
-
 h1, h2, h3 {
     margin: 0;
     &.lg-heading {
@@ -49,7 +46,7 @@ main {
     height: 100%;  
     
     .sm-heading {
-        font-family: 'Niramit', sans-serif;
+        font-size: 20px;
     }
     &#home {
         overflow: hidden;
@@ -94,17 +91,16 @@ main {
     align-items: center;
 }
 .phone_n {
-    top: 30%;
+    top: 36%;
 }
-
 .about_f {
-    top: 38%;
+    top: 44%;
 }
 .about_g {
-    top: 46%;
+    top: 52%;
 }
 .phone_m {
-    top: 54%;
+    top: 60%;
 }
 .phone_n:hover, .about_f:hover, .about_g:hover {
     width: 220px;
