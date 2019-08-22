@@ -455,6 +455,16 @@ main#home h1 {
   width: 220px;
 }
 
+.phone_n:hover .info {
+  width: 200px !important;
+  display: block !important;
+}
+
+.about_f:hover .info {
+  width: 200px !important;
+  display: block !important;
+}
+
 .phone_m:hover {
   width: 280px;
 }
@@ -479,9 +489,15 @@ main#home h1 {
   font-size: 44px;
 }
 
-.about_f a, .about_g a {
+.about_f a, .about_g a, .phone_m a {
   display: flex;
   align-items: center;
+}
+
+.info {
+  position: absolute;
+  left: 55px;
+  display: none;
 }
 
 /*# sourceMappingURL=style.css.map */
